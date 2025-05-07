@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mrembo Bags | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="https://picsum.photos/200/300" alt="Mrembo Bags Logo" class="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-form">Contact</a>
+        <a href="cart.html"><i class="fas fa-store-alt-slash"></i> <span id="cart-count"></span></a>
+      </nav>
+      <input type="text" placeholder="Search products..." class="search-bar">
+    </div>
+  </header>
+
+  <section class="welcome">
+    <h1>Welcome to Mrembo Bags</h1>
+    <p>Discover the perfect handbag for every occasion. Our collection features elegant, stylish, and trendy designs to suit your unique style.</p>
+  </section>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h2>Discover Your Perfect Bag</h2>
+      <p>Shop our exclusive collection of elegant handbags.</p>
+      <button onclick="location.href='shop.html'">Shop Now</button>
+    </div>
+    <div class="hero-right">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="https://picsum.photos/800/400?random=1" alt="Handbag 1">
+        </div>
+        <div class="slide">
+          <img src="https://picsum.photos/200/400?random=2" alt="Handbag 2">
+        </div>
+        <div class="slide">
+          <img src="https://picsum.photos/300/400?random=3" alt="Handbag 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-us" class="about-us">
+    <h2>About Us</h2>
+    <p>
+      At Mrembo Bags, we are passionate about providing high-quality, stylish handbags that complement your unique style. 
+      Our mission is to offer a wide range of elegant and trendy designs for every occasion. 
+      Whether you're looking for a chic clutch, a spacious tote, or a classic handbag, we have something for everyone.
+    </p>
+    <p>
+      We believe in empowering individuals through fashion and strive to deliver exceptional customer service. 
+      Thank you for choosing Mrembo Bags as your go-to destination for handbags.
+    </p>
+  </section>
+
+  <section class="contact-form" id="contact-form">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Mrembo Bags. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square "></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>  
+
+  <script src="script.js"></script>
+</body>
+</html>
+

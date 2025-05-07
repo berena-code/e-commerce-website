@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Mrembo Bags</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html"><img src="https://picsum.photos/200/300" alt="Mrembo Bags Logo" class="logo"></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="index.html#about-us">About Us</a>
+        <a href="index.html#contact-us">Contact</a>
+        <a href="cart.html">
+          <i class="fas fa-store-alt-slash"></i><span id="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="notification" class="notification"></div>
+
+  <main class="products">
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Elegant handbag">
+      <h2>Elegant Clutch</h2>
+      <p>KSh 2,500</p>
+      <button onclick="addToCart('Elegant Clutch', 2500, event)">Add to Cart</button>
+    </div>
+    <!-- Add more products similarly -->
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Stylish Tote">
+      <h2>Stylish Tote</h2>
+      <p>KSh 3,000</p>
+      <button onclick="addToCart('Stylish Tote', 3000, event)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Chic Backpack">
+      <h2>Chic Backpack</h2>
+      <p>KSh 4,000</p>
+      <button onclick="addToCart('Chic Backpack', 400, event)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Classic Satchel">
+      <h2>Classic Satchel</h2>
+      <p>KSh 3,500</p>
+      <button onclick="addToCart('Classic Satchel', 3500, event)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Trendy Crossbody">
+      <h2>Trendy Crossbody</h2>
+      <p>KSh 2,800</p>
+      <button onclick="addToCart('Trendy Crossbody', 2800, event)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200/300" alt="Luxury Handbag">
+      <h2>Luxury Handbag</h2>
+      <p>KSh 5,500</p>
+      <button onclick="addToCart('Luxury Handbag', 5500, event)">Add to Cart</button>
+  </main>
+
+  <script src="shop.js"></script>
+</body>
+</html>
